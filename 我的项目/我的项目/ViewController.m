@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FFPerson.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    FFPerson *p = [FFPerson new];
+    
+    p.name = @"小芳";
+    
+    [p eat];
+    
+    
+    
+    
+    
 }
 
 

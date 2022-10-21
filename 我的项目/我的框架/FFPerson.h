@@ -10,4 +10,9 @@
 
 @interface FFPerson : NSObject
 
+@property (nonatomic,copy) NSString *name;
+
+- (void)eat;
+
+
 @end

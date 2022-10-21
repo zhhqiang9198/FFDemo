@@ -10,4 +10,8 @@
 
 @implementation FFPerson
 
+- (void)eat {
+    NSLog(@"%@ 正在吃...", _name);
+}
+
 @end
