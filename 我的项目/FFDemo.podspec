@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
     spec.author       = { "zhao" => "zhhqiang9198@163.com" }
     spec.platform     = :ios, "9.0"
     spec.source       = { :git => "https://github.com/zhhqiang9198/FFDemo.git", :tag => spec.version }
-    spec.source_files  = "FFDemo", "我的项目/我的项目/我的框架/*.{h,m}"
+    spec.source_files  = "FFDemo", "我的项目/我的框架/*.{h,m}"
     spec.requires_arc = true
 
 end
