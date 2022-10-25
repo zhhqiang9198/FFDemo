@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE31CE7629078D5700CC0096 /* FFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FE31CE7529078D5700CC0096 /* FFPerson.m */; };
 		FE82AC3F2901354900283257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE82AC3E2901354900283257 /* AppDelegate.m */; };
 		FE82AC422901354900283257 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE82AC412901354900283257 /* ViewController.m */; };
 		FE82AC452901354900283257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE82AC432901354900283257 /* Main.storyboard */; };
 		FE82AC472901354900283257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE82AC462901354900283257 /* Assets.xcassets */; };
 		FE82AC4A2901354900283257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE82AC482901354900283257 /* LaunchScreen.storyboard */; };
 		FE82AC4D2901354900283257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE82AC4C2901354900283257 /* main.m */; };
-		FE82AC562901374400283257 /* FFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FE82AC552901374400283257 /* FFPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE31CE7429078D5700CC0096 /* FFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPerson.h; sourceTree = "<group>"; };
+		FE31CE7529078D5700CC0096 /* FFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPerson.m; sourceTree = "<group>"; };
 		FE82AC3A2901354800283257 /* 我的项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "我的项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE82AC3D2901354900283257 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE82AC3E2901354900283257 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		FE82AC492901354900283257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE82AC4B2901354900283257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE82AC4C2901354900283257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FE82AC542901374400283257 /* FFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFPerson.h; sourceTree = "<group>"; };
-		FE82AC552901374400283257 /* FFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE31CE7329078D5700CC0096 /* 我的框架 */ = {
+			isa = PBXGroup;
+			children = (
+				FE31CE7429078D5700CC0096 /* FFPerson.h */,
+				FE31CE7529078D5700CC0096 /* FFPerson.m */,
+			);
+			path = "我的框架";
+			sourceTree = "<group>";
+		};
 		FE82AC312901354800283257 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +70,7 @@
 		FE82AC3C2901354800283257 /* 我的项目 */ = {
 			isa = PBXGroup;
 			children = (
-				FE82AC532901357000283257 /* 我的框架 */,
+				FE31CE7329078D5700CC0096 /* 我的框架 */,
 				FE82AC3D2901354900283257 /* AppDelegate.h */,
 				FE82AC3E2901354900283257 /* AppDelegate.m */,
 				FE82AC402901354900283257 /* ViewController.h */,
@@ -74,15 +83,6 @@
 			);
 			path = "我的项目";
 			sourceTree = "<group>";
-		};
-		FE82AC532901357000283257 /* 我的框架 */ = {
-			isa = PBXGroup;
-			children = (
-				FE82AC542901374400283257 /* FFPerson.h */,
-				FE82AC552901374400283257 /* FFPerson.m */,
-			);
-			path = "我的框架";
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -155,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE82AC562901374400283257 /* FFPerson.m in Sources */,
+				FE31CE7629078D5700CC0096 /* FFPerson.m in Sources */,
 				FE82AC422901354900283257 /* ViewController.m in Sources */,
 				FE82AC4D2901354900283257 /* main.m in Sources */,
 				FE82AC3F2901354900283257 /* AppDelegate.m in Sources */,
