@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "FFDemo"
-    spec.version      = "0.1.1"
+    spec.version      = "0.0.1"
     spec.summary      = "这是我的框架"
     spec.homepage     = "https://github.com/zhhqiang9198/FFDemo"
     spec.license      = "MIT"
